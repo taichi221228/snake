@@ -9,8 +9,8 @@
     "preview": "vite preview",
     "lint": "bunx @biomejs/biome lint .",
     "lint.fix": "bunx @biomejs/biome lint . --apply",
-    "format": "bunx @biomejs/biome format . --write",
-    "format.check": "bunx @biomejs/biome format .",
+    "format": "bunx @biomejs/biome format . --write && prettier --write \"*.{html,css}\"",
+    "format.check": "bunx @biomejs/biome format . && prettier --check \"*.{html,css}\"",
     "prepare": "husky"
   },
   "devDependencies": {
