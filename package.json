@@ -7,10 +7,10 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "format": "bunx @biomejs/biome format . --write",
-    "format.check": "bunx @biomejs/biome format .",
     "lint": "bunx @biomejs/biome lint .",
     "lint.fix": "bunx @biomejs/biome lint . --apply",
+    "format": "bunx @biomejs/biome format . --write",
+    "format.check": "bunx @biomejs/biome format .",
     "prepare": "husky"
   },
   "devDependencies": {
