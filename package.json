@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "format": "bunx @biomejs/biome format . --write",
+    "format.check": "bunx @biomejs/biome format .",
+    "lint": "bunx @biomejs/biome lint .",
+    "lint.fix": "bunx @biomejs/biome lint . --apply"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
