@@ -10,7 +10,8 @@
     "format": "bunx @biomejs/biome format . --write",
     "format.check": "bunx @biomejs/biome format .",
     "lint": "bunx @biomejs/biome lint .",
-    "lint.fix": "bunx @biomejs/biome lint . --apply"
+    "lint.fix": "bunx @biomejs/biome lint . --apply",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.5.3",
